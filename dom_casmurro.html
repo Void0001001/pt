@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Detalhes do Filme - [Nome do Filme]</title>
+    <style>
+        body {
+            background-color: #1d1e22;
+            color: #f8f9fa;
+            padding: 20px;
+        }
+        .movie-details-card {
+            background-color: #495057;
+            border: none;
+            padding: 20px;
+        }
+        .movie-poster {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .btn-pdf {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="mb-4 text-center">
+            <h1>Detalhes do livro</h1>
+        </header>
+
+        <!-- Card de detalhes do filme -->
+        <div class="card movie-details-card">
+            <div class="row">
+                <div class="col-md-4">
+                    <!-- Poster do Filme -->
+                    <img src="dom.jpeg" alt="Poster do Filme" class="movie-poster">
+                </div>
+                <div class="col-md-8">
+                    <h2 class="mb-3">[Dom Casmurro.]</h2>
+                    <p><strong>Gênero:</strong> [Drama]</p>
+                    <p><strong>Data de Lançamento:</strong> [1899]</p>
+                    <p><strong>Autor:</strong> [Machado De Assis]</p>
+                    <p><strong>Sinopse:</strong> [Dom Casmurro é um romance escrito por Machado de Assis, publicado em 1899. A história é narrada por Bento Santiago, conhecido como Dom Casmurro, que conta suas memórias de juventude e seu amor por Capitu, uma amiga de infância. Eles crescem juntos no subúrbio do Rio de Janeiro, e mesmo com a oposição da mãe de Bentinho, eles acabam se casando. Contudo, a trama gira em torno das suspeitas de Bento sobre a infidelidade de Capitu, acreditando que ela teria traído ele com seu melhor amigo, Escobar. A dúvida sobre a paternidade de seu filho Ezequiel é o principal motivo da desconfiança de Bento. O romance é marcado pela ambiguidade e pela análise psicológica dos personagens, deixando ao leitor a tarefa de julgar a verdade sobre o suposto adultério de Capitu.]</p>
+
+                   
+                    <a href="Dom_Casmurro.pdf" class="btn btn-success btn-pdf" target="_blank">
+                        Visualizar PDF
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- Área de navegação de volta à lista de filmes -->
+        <div class="mt-4">
+            
+            <a href="site.html" class="btn btn-outline-success">Voltar para a lista de filmes</a>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

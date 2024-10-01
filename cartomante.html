@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Detalhes do Filme - [Nome do Filme]</title>
+    <style>
+        body {
+            background-color: #1d1e22;
+            color: #f8f9fa;
+            padding: 20px;
+        }
+        .movie-details-card {
+            background-color: #495057;
+            border: none;
+            padding: 20px;
+        }
+        .movie-poster {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .btn-pdf {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="mb-4 text-center">
+            <h1>Detalhes do Filme</h1>
+        </header>
+
+        <!-- Card de detalhes do filme -->
+        <div class="card movie-details-card">
+            <div class="row">
+                <div class="col-md-4">
+                    <!-- Poster do Filme -->
+                    <img src="carta.jpeg" alt="Poster do Filme" class="movie-poster">
+                </div>
+                <div class="col-md-8">
+                    <h2 class="mb-3">[Nome do Filme]</h2>
+                    <p><strong>Gênero:</strong> [curta metragem]</p>
+                    <p><strong>Data de Lançamento:</strong> [1884]</p>
+                    <p><strong>Autor:</strong> [Machado de Asis]</p>
+                    <p><strong>Sinopse:</strong> [A história é centrada em Rita, uma mulher casada com o respeitável Vilela, mas que mantém um relacionamento amoroso com o amigo deste, Camilo. Em busca de respostas sobre seu futuro amoroso, Rita consulta uma cartomante, que a adverte sobre os perigos de sua situação. Embora a cartomante preveja que Camilo irá deixar Rita, ela não consegue evitar o envolvimento com ele, movida pela paixão. O conto culmina em um desfecho trágico, quando Vilela descobre a traição e a história revela as consequências da ambição e da busca pelo amor em um contexto de intrigas e segredos. A obra destaca a ironia e a crítica social de Machado de Assis, explorando as complexidades das relações humanas e os efeitos do destino sobre as escolhas pessoais.
+
+
+
+
+
+
+                        ]</p>
+
+                    <a href="carta.pdf" class="btn btn-success btn-pdf" target="_blank">
+                        Visualizar PDF
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Área de navegação de volta à lista de filmes -->
+        <div class="mt-4">
+            
+            <a href="site.html" class="btn btn-outline-success">Voltar para a lista de filmes</a>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Detalhes do Filme - [Nome do Filme]</title>
+    <style>
+        body {
+            background-color: #1d1e22;
+            color: #f8f9fa;
+            padding: 20px;
+        }
+        .movie-details-card {
+            background-color: #495057;
+            border: none;
+            padding: 20px;
+        }
+        .movie-poster {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .btn-pdf {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="mb-4 text-center">
+            <h1>Detalhes do Filme</h1>
+        </header>
+
+        <!-- Card de detalhes do filme -->
+        <div class="card movie-details-card">
+            <div class="row">
+                <div class="col-md-4">
+                    <!-- Poster do Filme -->
+                    <img src="alie.jpeg" alt="Poster do Filme" class="movie-poster">
+                </div>
+                <div class="col-md-8">
+                    <h2 class="mb-3">[alienista]</h2>
+                    <p><strong>Gênero:</strong> <div comedia=""></div></p>
+                    <p><strong>Data de Lançamento:</strong> [1882]</p>
+                    <p><strong>Autor:</strong> [Machado de Assis]</p>
+                    <p><strong>Sinopse:</strong> [A narrativa se passa na cidade de Itaguaí e gira em torno do Dr. Simão Bacamarte, um médico renomado e dedicado à psiquiatria. Obcecado por entender a loucura, ele decide fundar um hospício para estudar e tratar os "insanos". Inicialmente, Bacamarte é rigoroso em suas classificações e acaba internando várias pessoas que considera desequilibradas, incluindo indivíduos que desafiam as normas sociais. À medida que sua busca pela verdade se intensifica, ele se torna cada vez mais cético e autoritário, levando à insatisfação da população. O conto explora temas como a definição de sanidade e loucura, a arbitrariedade do poder e as críticas à ciência e à sociedade, revelando a complexidade da mente humana e a fragilidade das convenções sociais.]</p>
+
+                    <a href="alie.pdf" class="btn btn-success btn-pdf" target="_blank">
+                        Visualizar PDF
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Área de navegação de volta à lista de filmes -->
+        <div class="mt-4">
+            
+            <a href="site.html" class="btn btn-outline-success">Voltar para a lista de filmes</a>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
